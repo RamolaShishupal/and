@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/activity_hadminsup"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registration for Hospital Admin"
+
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvhname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hospital Name"
+
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/ethname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvaname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin Nmae"
+
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/etaname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvhuname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hospital Username"
+
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/ethuname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvhpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/ethpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text=""
+        android:inputType=""
+
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvhpno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hospital Ph no"
+
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/ethpno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text=""
+        android:inputType="phone"
+
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvhadd"
+        android:layout_width="wrap_content"
+        android:layout_height="16dp"
+        android:text="Hospital Address"
+
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/ethadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text=""
+
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvhmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Hospital Email"
+
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/ethmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text=""
+        android:inputType="textEmailAddress"
+
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnsub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+
+        tools:ignore="MissingConstraints" />
+
+        </LinearLayout>

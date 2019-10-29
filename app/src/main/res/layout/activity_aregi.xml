@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_aregi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alwaysDrawnWithCache="true"
+    android:orientation="vertical">
+
+
+
+
+
+    <TextView
+        android:id="@+id/tvtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registration for Blood Donor" />
+
+    <TextView
+        android:id="@+id/tvdname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Donor Name"
+        tools:ignore="MissingConstraints" />
+    <EditText
+        android:id="@+id/etdname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tvduname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Donor Userame" />
+    <EditText
+        android:id="@+id/etduname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tvdbg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter blood group" />
+    <EditText
+        android:id="@+id/etdbg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvdpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        tools:ignore="MissingConstraints" />
+    <EditText
+        android:id="@+id/etdpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text=""
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/tvdpno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Donor Ph no"
+        tools:ignore="MissingConstraints" />
+    <EditText
+        android:id="@+id/etdpno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:text=""
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:id="@+id/tvdadd"
+        android:layout_width="wrap_content"
+        android:layout_height="16dp"
+        android:text="Donor Address"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/etdadd"
+        android:layout_width="229dp"
+        android:layout_height="50dp"
+        android:ems="5"
+        android:gravity="start|top"
+        android:inputType="text"
+        android:text=""
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvdmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Email"
+        tools:ignore="MissingConstraints" />
+    <EditText
+        android:id="@+id/etdmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="0dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text=""
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/tvdage"
+        android:layout_width="37dp"
+        android:layout_height="10dp"
+        android:text="Age"
+        tools:ignore="MissingConstraints" />
+    <EditText
+        android:id="@+id/etdage"
+        android:layout_width="71dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text=""
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnsub"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Register" />
+
+
+</LinearLayout>
+
